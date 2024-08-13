@@ -119,10 +119,6 @@ const router = createBrowserRouter([
     // Divisao dos TPs
 
     {
-        path: '/',
-        element: <Home />
-    },
-    {
         path: '/tp2',
         element: <TP2 />,
     },
