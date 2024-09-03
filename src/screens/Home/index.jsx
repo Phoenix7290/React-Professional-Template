@@ -8,6 +8,7 @@ export default function Home() {
             <ul>
                 <li className="option"><Link to={'/tp1'}>TP1</Link></li>
                 <li className="option"><Link to={'/tp2'}>TP2</Link></li>
+                <li className="option"><Link to={'/tp3'}>TP3</Link></li>
             </ul>
         </div>
     );

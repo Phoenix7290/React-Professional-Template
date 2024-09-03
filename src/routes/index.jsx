@@ -41,6 +41,24 @@ import TP2_14 from "../screens/TP2/14";
 import TP2_15 from "../screens/TP2/15";
 import TP2_16 from "../screens/TP2/16";
 
+import TP3 from "../screens/TP3";
+import TP3_01 from "../screens/TP3/01";
+import TP3_02 from "../screens/TP3/02";
+import TP3_03 from "../screens/TP3/03";
+import TP3_04 from "../screens/TP3/04";
+import TP3_05 from "../screens/TP3/05";
+import TP3_06 from "../screens/TP3/06";
+import TP3_07 from "../screens/TP3/07";
+import TP3_08 from "../screens/TP3/08";
+import TP3_09 from "../screens/TP3/09";
+import TP3_10 from "../screens/TP3/10";
+import TP3_11 from "../screens/TP3/11";
+import TP3_12 from "../screens/TP3/12";
+import TP3_13 from "../screens/TP3/13";
+import TP3_14 from "../screens/TP3/14";
+import TP3_15 from "../screens/TP3/15";
+import TP3_16 from "../screens/TP3/16";
+
 const router = createBrowserRouter([
 
     {
@@ -185,6 +203,77 @@ const router = createBrowserRouter([
     {
         path: '/tp2/16',
         element: <TP2_16 />,
+    },
+
+    // Divisao dos TPs
+
+    {
+        path: '/tp3',
+        element: <TP3 />,
+    },
+    {
+        path: '/tp3/01',
+        element: <TP3_01 />,
+    },
+    {
+        path: '/tp3/02',
+        element: <TP3_02 />,
+    },
+    {
+        path: '/tp3/03',
+        element: <TP3_03 />,
+    },
+    {
+        path: '/tp3/04',
+        element: <TP3_04 />,
+    },
+    {
+        path: '/tp3/05',
+        element: <TP3_05 />,
+    },
+    {
+        path: '/tp3/06',
+        element: <TP3_06 />,
+    },
+    {
+        path: '/tp3/07',
+        element: <TP3_07 />,
+    },
+    {
+        path: '/tp3/08',
+        element: <TP3_08 />,
+    },
+    {
+        path: '/tp3/09',
+        element: <TP3_09 />,
+    },
+    {
+        path: '/tp3/10',
+        element: <TP3_10 />,
+    },
+    {
+        path: '/tp3/11',
+        element: <TP3_11 />,
+    },
+    {
+        path: '/tp3/12',
+        element: <TP3_12 />,
+    },
+    {
+        path: '/tp3/13',
+        element: <TP3_13 />,
+    },
+    {
+        path: '/tp3/14',
+        element: <TP3_14 />,
+    },
+    {
+        path: '/tp3/15',
+        element: <TP3_15 />,
+    },
+    {
+        path: '/tp3/16',
+        element: <TP3_16 />,
     },
 
 ]);
